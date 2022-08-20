@@ -1,0 +1,152 @@
+body{
+   
+        background-color: dimgray;
+        color: white;
+  
+}
+
+.external{
+    color: black;
+   background-color: yellow;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*this is a commenst abi ye dikhai nahi dega*/
+.div-class1{
+    background-color: chocolate;
+    opacity: 1;
+}
+.div-class2{
+    background-color: chocolate;
+    opacity: 0.8;
+}
+.div-class3{
+    background-color: chocolate;
+    opacity: 0.5;
+}
+.div-class4{
+    background-color: chocolate;
+    opacity: 0.3;
+}
+
+
+.divclass1{
+    background: rgb(162, 247, 241,1);
+
+}
+.divclass2{
+    background: rgb(162, 247, 241,0.8);
+
+}
+
+.divclass3{
+    background: rgb(162, 247, 241,0.6);
+
+}
+
+.divclass4{
+    background: rgb(162, 247, 241,0.4);
+
+}
+
+.divclass5{
+    background: rgb(162, 247, 241,0.2);
+
+}
+.divbg
+{
+    background-image: url("img.jpg");
+    background-repeat: repeat-x;
+}
+
+.div-border{
+border-style: dotted;
+}
+ .bordercheck{
+    border-style-left: solid;
+    border-color: black;
+      
+    
+ }
+
+ .rndbdr{
+   border-style: solid;
+   border-color: aquamarine;
+   border-radius: 10px;
+ }
+
+ .mrgn{
+    margin-left:100px ;
+    margin-right: 100px;
+    background-color: chartreuse;
+    font-family: sans-serif;
+    font-size: large;
+    border-style: solid;
+    border: left 0;
+    border-left-color:blue;
+ }
+
+ .pdn{ text-align:center ;
+    border-style: solid;
+padding: 20px 20px 20px;
+
+
+ }
+
+ .wth{
+    background-color: tomato;
+    height: 200px;
+    width:60%;
+ }
+
+ .boxmodel {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+
+  .stck{
+    position: static;
+    background-color: yellowgreen;
+  }
+
+  .rel{
+    position: relative;
+    background-color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .fxd{
+    position: fixed;
+    background-color: black;
+  }
+
+  .stky{
+    position:sticky;
+   background-color: #39f143;
+   text-align: center;
+   
+   
+  }
+
+  .chkoverflow{
+    height: 100px;
+    width: 200px;
+    overflow: scroll;
+  }
+   
+  img{
+    width: 200px;
+    height: 100px;
+    float: right;
+  }
+
+  .navbaruncheck{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS Documentation</title>
+        <meta name="description" content="This web page is a css Documentation">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+<ol>
+        <h1><li>how to add css</h1></li>
+        <h3><u>(check index.html for code)</u></h3>
+        <ul>
+            <li>internal css</li>
+            <li>external css</li>
+            <li>inline css</li>
+        </ul>
+
+        <h2>examples</h2>
+        <ul>
+            
+            <style>
+                    .internal
+                    {
+                        color: white;
+                           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+                            background-color: aqua;
+                        }
+
+
+            </style>
+            <li class="internal">internal css</li>
+            <li class="external">external css</li>
+            <li style="background-color:forestgreen;" style="font-family:verdana;">internal css</li>
+        </ul>
+
+        <h1><li>comments</li></h1>
+        <p>open source code to see comments</p> <!--this is a commetn inside html-->
+
+      <h1><li>colours</li></h1>
+      <p> theere are predefined 140 colours  <br>syntax for background color background-color:"name-of-the-color"
+        <br> text color  color:"name" <br>
+        <br><h3 style="border:2px solid Tomato;">this is in border</h3>
+
+      </p>
+      <h1><li>backgrounds</li></h1>
+      <p>basic code for setting that can be done to background  css elements
+        <br>
+        --opacity 
+        example--see source code
+        <div class="div-class1"> opacity checker</div>
+        <div class="div-class2"> opacity checker</div>
+        <div class="div-class3"> opacity checker</div>
+        <div class="div-class4"> opacity checker</div>
+
+      </p>
+      <p>
+        <strong>transparency-check source code</strong>
+        the A-alpha channel can be added along with background to seer transparency <br>
+        eg <br>
+        background=rgb(r,g,b,a) --where a is the transparency value , max transparency==1 
+        <br>example
+        <div class="divclass1">transparency 1</div>
+        <div class="divclass2">transparency 2</div>
+        <div class="divclass3">transparency 3</div>
+        <div class="divclass4">transparency 4</div>
+        <div class="divclass5">transparency 5</div>
+
+      </p>
+
+      <br>
+      
+      <strong>background image for an element</strong>
+      <br> here the backgrund is applied to the body tag syntax-- backgroung-image:url("image location or path")
+<br>
+<br>
+ <div class="divbg"><strong>to repeat an image </strong>
+    <br><h3 style="color: red;">error in showing image</h3>
+  </div>
+  <br>
+  <br>
+<strong>scrollable image</strong>
+ just set background-attatchment:fixed || scroll
+
+ <br><br>
+
+ <h1><li>borders</li></h1>
+ <p>
+    border-style property can be used to customise borders <br> syntax border-style:dotted || etc 
+    <br> example <br>
+    <div class="div-border"> 
+        this is in border
+    </div><br>
+    other properties <br>
+    border- width && color && sides <br>
+    the border properties can be added to one just side also <br>
+      <div class="bordercheck"> //text here</div>  <strong style="color:red ;">error</strong>     
+ </p>
+ <br>
+ rounded borders -- <br>
+ <div class="rndbdr">//text here</div> <br>
+ <h1><li>margins</li></h1>
+  <p>used to create space from sides of the document</p> <br>
+  use "margin" property <br>
+  <div class="mrgn"> this is postioned acording to the margins specified in the styles.css</div><br>
+
+  <h1><li>padding</li></h1>
+<p>
+    padding is used to create space around element --example <br>
+    use padding attribute padding-top etc.. <br>
+    <div class="pdn">//text here</div>
+</p><br>
+<h1><li>height and width of the element</li></h1>
+<br>
+it sets the height/width of the area inside the padding,border, and margin of the element <br> <br>
+<div class="wth">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci pariatur consequatur saepe neque eum at itaque modi nisi explicabo quidem perspiciatis, repellendus ipsum nemo omnis distinctio quod, cum numquam aliquam.</div>
+
+
+<br>
+<br>
+<h1><li>the box model</li></h1> <br>
+this is stacked like---  <br>
+content <br>
+padding <br>
+border <br>
+margin <br>
+<div class="boxmodel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tenetur odio quo vitae similique. Cupiditate, officia, pariatur accusantium deleniti delectus magni modi odio culpa nihil similique nemo aspernatur, eum hic.</div>
+<br> 
+
+<h1><li> outline</li></h1>
+
+<pre>an outine is drawn around the element , outside the border 
+   <div class="outln"> //text here</div>
+</pre>
+
+<h1><li>text</li></h1>
+<pre>properties -> colour 
+   text-align || text-align-last -> aligns the last line of the text.
+   decoration ->  
+</pre>
+<h1><li>positioning</li></h1>
+<pre>the position of the element will only change if the position property of the element is specified .
+  5 types of positioning
+  -static -> does not affect positioning will be positioned acc to the document
+  -relative -> changes the position with respect to the the original position
+  -fixed -> this element position stays fixed to the viewport even if the document is scrolled up or down
+  -absolute-> positions the element with respect to the previous element 
+  -sticky -> positioned according to the scroll of the webpage
+
+
+  examples : do check source code
+</pre>
+<div class="stck">this div has static positioning</div>
+<div class="rel">this is relative positioning</div>
+<div class="fxd">this has fixed positioning   
+  more space for the absolute positioning.
+</div>
+<div class="absl">this has adsolute positioning</div>
+<div class="stky">this has sticky positioning</div>
+
+<h1><li>z index</li></h1>
+its like layering , which item comes above or below the other 
+<br>works only on positioned elements that is on those elements where position is absolute.
+<br>
+<h1><li>overflow</li></h1>
+<pre>
+  adds scrollbars when the content is too long
+  values available with overflow-
+  - visible -- overrides the text over the area alloted for the text
+  -hidden -- hides the extra data
+  -scroll -- adds a scrll bar for viewing the extra data
+  -auto -- automatically identifies whether a scroll bar needs to be adde or not
+example below for scroll :  
+</pre>
+<div class="chkoverflow">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et eius commodi doloribus eum obcaecati autem, eaque praesentium dicta quam aliquid atque nobis aut nemo id debitis voluptas repellat doloremque illum.</div>
+<br>
+<h1><li>float and clear</li></h1>
+<pre>floar -> defines how an element should float eg  if there is an image along with text then this property defines the position where the image or 
+             text should appear 
+  clear -> defines what happens to the next element using float.
+  example:</pre>
+  <h1>Float added to right</h1>
+  <p> <img src="img.jpg" alt="display image"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit, veritatis maiores et iure repudiandae veniam odio. Sit libero nemo alias tenetur laboriosam quidem quibusdam dolorum. Tempora debitis corporis dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eaque modi qui dicta blanditiis unde eum doloremque adipisci similique minima? Aut nobis quo, vel modi inventore assumenda. Laboriosam, officia suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis cum iste. Facilis, error id? Quo iusto, delectus inventore nam id quae voluptatem repellendus cum possimus, minima cumque dicta soluta!</p>
+
+<h1><li>Navigation Bar</li></h1>
+<pre>navigation bar can be created from html lists 
+  example below creates navigation bar from list
+  <a href="navbar.html"><strong>click</strong></a> here to view basic navigation bar
+
+  actually navbar is just links bundled at one place.
+
+  examplefor verticle navbar
+  <a href="vernavbar.html"><strong>click</strong></a> here to view verticle navbar
+</pre>
+ 
+    </ol>
+    </body>
+</html>
