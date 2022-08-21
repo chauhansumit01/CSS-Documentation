@@ -9,6 +9,10 @@ body{
     background-color: #39f143;
 
   }
+  li{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
 
   li a {
     display: block;
@@ -19,5 +23,5 @@ body{
 
   li a:hover{
     background-color: aliceblue;
-    
+
   }
